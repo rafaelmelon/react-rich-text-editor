@@ -1,5 +1,5 @@
 .RichEditor-editor {
-  border-top: 1px solid #ddd;
+  border: 1px solid #ddd;
   cursor: text;
   font-size: 16px;
   margin-top: 10px;
@@ -21,4 +21,32 @@
   margin-right: 16px;
   padding: 2px 0;
   display: inline-block;
+}
+
+.RichEditor-styleButton.RichEditor-activeButton {
+  color: black;
+}
+
+.RichEditor-button {
+  background-color: lightblue;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.RichEditor-readOnlyButton {
+  background-color: palegreen;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.RichEditor-readOnlyButton-active {
+  background-color: indianred;
+  display: inline-block;
+  border-radius: 5px;
+  border: none;
+  outline: none;
 }
