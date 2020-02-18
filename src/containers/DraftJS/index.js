@@ -178,14 +178,14 @@ class DraftJS extends React.Component {
                     <button
                       className="RichEditor-button"
                       onMouseDown={this.promptForLink}
-                      style={{ marginRight: 10 }}
+                      style={{ marginRight: 10, marginBottom: 5 }}
                     >
                       Add Link
                     </button>
                     <button
                       className="RichEditor-button"
                       onMouseDown={this.removeLink}
-                      style={{ marginRight: 10 }}
+                      style={{ marginRight: 10, marginBottom: 5 }}
                     >
                       Remove Link
                     </button>
@@ -194,6 +194,7 @@ class DraftJS extends React.Component {
                         !isReadOnly ? "" : "-active"
                       }`}
                       onMouseDown={this.onReadOnly}
+                      style={{ marginBottom: 5 }}
                     >
                       {!isReadOnly ? "Editable" : "Blocked"}
                     </button>
