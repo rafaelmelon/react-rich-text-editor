@@ -7,7 +7,7 @@
     "@ckeditor/ckeditor5-react": "^2.1.0",
     "bootstrap": "^4.3.1",
     "draft-js": "^0.11.4",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-favicon": "^2.0.1",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
